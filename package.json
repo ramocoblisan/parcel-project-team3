@@ -1,23 +1,23 @@
 {
-  "name": "parcel-project-team3",
-  "version": "1.0.0",
+  "name": "parcel-project-template",
+  "version": "2.0.0",
   "description": "",
-  "homepage": " https://ada2810.github.io/parcel-project-team3/",
+  "homepage": "https://ada2810.github.io/parcel-project-team3/",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /parcel-project-team3/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+ https://ada2810.github.io/parcel-project-team3.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-team3/.git"
   },
   "keywords": [],
-  "author": "Adeline Cozma <ade.cozma@gmail.com>",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/goitacademy/parcel-project-team3/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
