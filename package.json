@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "homepage": " https://ada2810.github.io/parcel-project-team3/",
-    "scripts": {
-      "start": "parcel src/index.html",
-      "build": "parcel build src/index.html",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d dist"
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
