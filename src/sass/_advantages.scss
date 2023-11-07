@@ -63,6 +63,9 @@ img {
 
 .advantages__list {
     width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .advantages__milk:before {
@@ -145,6 +148,7 @@ img {
   }
   .advantages__list {
     display: flex;
+    flex-direction: row;
   }
 
     .advantages__info {
